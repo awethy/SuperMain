@@ -17,10 +17,10 @@
                 Ведите пароль:
             </Label>
             <PasswordBox Margin="5" Name="pbPassword"></PasswordBox>
-            <Button Margin="5" Name="btnGo" Click="btnGo_Click">
+            <Button Margin="5" Name="btnGo" Click="btnGo_Click" Background ="LightGreen">
                 Войти
             </Button>
-            <Button Margin="5" Name="btnGoGuest" Click="btnGoGuest_Click">
+            <Button Margin="5" Name="btnGoGuest" Click="btnGoGuest_Click" Background ="LightGreen">
                 Войти как гость
             </Button>
         </StackPanel>
